@@ -6,6 +6,7 @@ public class Pais {
     private String ISO;
 
     public Pais() {
+        
     }
     
     public Pais(String nombre, String ISO) {
