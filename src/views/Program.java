@@ -12,5 +12,8 @@ public class Program {
     public static void main(String[] args) throws IllegalArgumentException, InvalidPropertiesFormatException {
         Persistencia.inicializar();        
         Controlador.mostrarMenuPrincipal();        
+        Persistencia.inicializar();
+        MenuPrincipal mp = new MenuPrincipal();
+        mp.setVisible(true);
     }
 }
