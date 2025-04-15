@@ -26,9 +26,6 @@ public class Sector {
     public Sector() {
     }
     
-    
-
-
     public void agregarAnimal(Mamifero mamifero) throws IllegalArgumentException, InvalidPropertiesFormatException {
         if(mamifero == null) throw new IllegalArgumentException();
         if(mamifero.getTipoAlimentacion() != this.tipoAlimentacion) throw new InvalidPropertiesFormatException("El sector no admite el animal");
