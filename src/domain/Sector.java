@@ -23,6 +23,11 @@ public class Sector {
         this.empleado = empleado;
     }
 
+    public Sector() {
+    }
+    
+    
+
 
     public void agregarAnimal(Mamifero mamifero) throws IllegalArgumentException, InvalidPropertiesFormatException {
         if(mamifero == null) throw new IllegalArgumentException();
